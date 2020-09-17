@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.fa-arrow-up{
+    position: fixed;
+    padding: 10px;
+    color: white;
+    background-color: var(--color);
+    border: none;
+    border-radius: 50%;
+    margin: 4px ;
+    right: 0;
+    bottom: 0;
+}
+.flex{
+    display: flex;
+}
+:root{
+    --color: #38bd60;
+}
+.navbar-brand{
+    color: var(--color);
+}
+.ab{
+    color: var(--color);
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+
+.mida{
+        margin-left: 140px;
+
+}
+
+.mida h1{
+    font-size: 50px;
+}
+.mida p{
+    font-size: 23px;
+}
+
+.title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8d8c8c;
+    font-family: "Poppins", sans-serif;
+}
+.title h2:after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #9ae1af;
+    margin: 4px 10px;
+}
+.numbers h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: var(--color);
+}
+.numbers h5{
+    font-size: 18px;
+}
+.cardy{
+    align-items: center;
+}
+.cardy i{
+    color: var(--color);
+    padding: 16px;
+    background-color: rgb(187, 255, 206);
+    border-radius: 50%;
+}
+.lil1,.lil2,.lil3,.lil4{
+    height: 50px;
+    width: 200px;
+    align-items: center;
+}
+.lil1 i{
+    margin-right: 6px;
+    font-size: 22px;
+    color: rgb(184, 148, 31);
+}
+.lil1 span{
+    margin-left: 6px;
+    font-weight: 900;
+}
+.lil1:hover{
+    border: 2px solid var(--color);
+}
+.lil1:hover i{
+    color: rgb(255, 214, 78);
+}
+.lil1:hover span{
+    color: var(--color);
+}
+
+.lil2 i{
+    margin-right: 6px;
+    font-size: 22px;
+    color: rgb(24, 69, 151);
+}
+.lil2 span{
+    margin-left: 6px;
+    font-weight: 900;
+}
+.lil2:hover{
+    border: 2px solid var(--color);
+}
+.lil2:hover i{
+    color: rgb(54, 117, 235);
+}
+.lil2:hover span{
+    color: var(--color);
+}
+
+
+.lil3 i{
+    margin-right: 6px;
+    font-size: 22px;
+    color: rgb(167, 29, 29);
+}
+.lil3 span{
+    margin-left: 6px;
+    font-weight: 900;
+}
+.lil3:hover{
+    border: 2px solid var(--color);
+}
+.lil3:hover i{
+    color: rgb(255, 66, 66);
+}
+.lil3:hover span{
+    color: var(--color);
+}
+
+
+.lil4 i{
+    margin-right: 6px;
+    font-size: 22px;
+    color: rgb(146, 21, 98);
+}
+.lil4 span{
+    margin-left: 6px;
+    font-weight: 900;
+}
+.lil4:hover{
+    border: 2px solid var(--color);
+}
+.lil4:hover i{
+    color: rgb(245, 57, 173);
+}
+.lil4:hover span{
+    color: var(--color);
+}
+
+.mid{
+    height: 19rem;
+    width: 100%;
+    margin: 3rem 6rem 0 6rem;
+}
+
+.mid li{
+    list-style: none;
+    font-weight: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.mid .pad{
+    margin: 0 5rem 7rem 0;
+}
+
+
+.mid h5{
+    color: var(--color);
+    /* color:rgb(51, 172, 116) ; */
+}
+
+.mid .nav{
+    width: 16%;;
+}
+
+.mid .email{
+    margin-left: -2rem;
+    width: 30%;
+}
+.mid form{
+    margin: 1.4rem 0 1rem 0;
+    display: flex;
+
+}
+.mid input{
+    width: 300px;
+    height:3rem;
+    padding-left: 5px;
+    border: 1px solid gray;
+    outline: black;
+    border-radius: 30px;
+
+}
+.mid button{
+    height: 3rem;
+    width: 6rem;
+    color: white;
+    background-color: var(--color);
+    margin-left: 210px;
+    border: none;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.mid .sm{
+    font-size: 15px;
+}
+
+.mid .line{
+    height: 3px;
+    width: 100%;
+    background-color: var(--color);
+}
+
+.le p{
+    font-size: 13px;
+}
+
+.w2 span{
+    color: var(--color);
+}
+
+.ri{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.ri i{
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--color);
+    margin: 0 ;
+}
+.ri i:hover{
+    color: var(--color);
+    background-color: white;
+}
+footer{
+    background-color: rgb(193, 224, 220);
+}
